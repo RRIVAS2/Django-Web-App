@@ -116,3 +116,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+
+LOGIN_REDIRECT_URL = 'index'  # Redirect to the tracker app after login
+
+LOGOUT_REDIRECT_URL = 'login'  # Redirect to the login page after logout

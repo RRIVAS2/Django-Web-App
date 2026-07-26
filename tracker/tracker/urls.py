@@ -26,4 +26,7 @@ urlpatterns = [
     
     # Added this line to redirect the root URL to the tracker_app url.
     path('', RedirectView.as_view(url='/tracker_app/', permanent=True)), 
+
+    # Add Django's built-in authentication URLs (login, logout, password management)
+    path('accounts/', include('django.contrib.auth.urls')),
 ]

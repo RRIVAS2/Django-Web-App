@@ -1,0 +1,184 @@
+:root {
+    --primary: #4f46e5;
+    --primary-hover: green;
+    --bg-color: #f8fafc;
+    --card-bg: #ffffff;
+    --text-main-color: #0f172a;
+    --text-muted-color: #64748b;
+    --border-color: #e2e8f0;
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(bg-color);
+    color: var(--text-main-color);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: var(--bg-color);
+    border-bottom: 1px solid var(border-color);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    color: var(--primary);
+}
+
+nav a, nav button {
+    color: var(--text-muted-color);
+    text-decoration: none;
+    margin: 1rem;
+}
+
+nav a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800 px;
+    width: 90%;
+    margin: 2rem auto;
+    flex-grow: 1;
+}
+
+.card {
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 2rem;
+    box-shadow: var(--shadow);
+}
+
+h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--text-main-color);
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+form {
+    margin: 1rem;
+}
+
+label {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+    
+}
+
+input[type="number"],
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    outline: none;
+}
+
+input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+}
+
+button, 
+input[type="submit"] {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover,
+ input[type="submit"]:hover {
+    background-color: var(--primary-hover);
+ }
+
+button:active,
+ input[type="submit"]:active {
+    transform: scale(0.95);
+ }
+
+ nav form button {
+    background: none;
+    color: var(--text-muted-color);
+    padding: 0;
+    font-size: 1rem;
+ }
+
+ nav form button:hover {
+    background: none;
+    color: red;
+ }
+
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem;
+ }
+
+ form table td {
+    padding: 0.4rem;
+ }
+
+ .data-table th, .data-table td {
+    padding: 0.4rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+ }
+
+ .data-table th {
+    background-color: var(--primary);
+    color: white;
+    font-size: 1rem;
+ }
+
+ .guest-hero {
+    text-align: center;
+    padding: 1rem;
+ } 
+
+ .guest-hero p {
+    color: var(--text-muted-color);
+    margin: 1rem;
+ }
+
+ .guest-hero a {
+    color: var(--primary);
+ }
+
+ footer {
+    text-align: center;
+    padding: 1rem;
+    color: var(--text-muted-color);
+    border-top: 1px solid var(--border-color);
+    background-color: var(--card-bg);
+ }
