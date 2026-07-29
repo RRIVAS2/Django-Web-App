@@ -7,7 +7,7 @@ How to Run the Project:
 1. Prerequisites & Installation:
    Make sure Python is installed. Clone this repository, set up a virtual environment, and install Django (You can follow this instructions to get it installed: https://docs.djangoproject.com/en/6.0/intro/install/):
 
-Bash
+```bash
 python -m venv djangoenv
 
 On Windows:
@@ -19,23 +19,26 @@ On Mac/Linux:
 source djangoenv/bin/activate
 
 pip install django
+```
 
 2. Run Migrations:
    Ensure the local SQLite database tables are generated:
 
-Bash
+```bash
 python manage.py migrate
+```
 
 3. Start the Development Server:
 
-Bash
+```bash
 python manage.py runserver
+```
 
 4. Access the App:
    Open your web browser and navigate to:
-   http://127.0.0.1:8000/
+   [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/NsQKK4ZcSYE)
 
 # Web Pages
 
