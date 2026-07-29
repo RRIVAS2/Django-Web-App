@@ -2,10 +2,6 @@
 
 BeBetter is an app that allows users to manually enter the time they waste in social media or doom scrolling. The purpose of this app is to allow users to be mindful of how they use their time.
 
-In order to run this app, you need to install Django on your computer. You can follow this instructions to get it installed: https://docs.djangoproject.com/en/6.0/intro/install/
-
-How to run the projects+:
-
 How to Run the Project:
 
 1. Prerequisites & Installation:
@@ -14,11 +10,11 @@ How to Run the Project:
 Bash
 python -m venv djangoenv
 
-# On Windows:
+On Windows:
 
 .\djangoenv\Scripts\activate
 
-# On Mac/Linux:
+On Mac/Linux:
 
 source djangoenv/bin/activate
 
