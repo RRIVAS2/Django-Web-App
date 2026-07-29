@@ -53,7 +53,7 @@ def index(request):
 
 def signup(request):
     """
-    View function for the signup page.
+    View function for the signup page. Handles user registration and automatic login.
     """
     if request.method == 'POST':
         form = UserCreationForm(request.POST)

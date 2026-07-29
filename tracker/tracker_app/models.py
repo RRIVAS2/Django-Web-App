@@ -3,6 +3,8 @@ from django.conf import settings
 
 # Create your models here.
 
+
+# Created Activity class/model
 class Activity(models.Model):
     """
     Model representing an activity that wastes time (e.g., "Doom Scrolling", "Watching TV")."""
@@ -13,6 +15,7 @@ class Activity(models.Model):
         return self.name
     
 
+# Creates ActivityLog class/model
 class ActivityLog(models.Model):
     """
     Model represent a log entry from a user for a specific activity. Each log entry is associated with an activity and contains the duration of time spent on that activity.

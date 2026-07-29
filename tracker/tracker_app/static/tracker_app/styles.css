@@ -100,6 +100,13 @@ input[type="password"] {
     outline: none;
 }
 
+form input[type="submit"],
+form button[type="submit"] {
+    width: 100%;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
 input:focus {
     border-color: var(--primary);
     box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
