@@ -38,7 +38,7 @@ python manage.py runserver
    Open your web browser and navigate to:
    [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
-[Software Demo Video](https://youtu.be/NsQKK4ZcSYE)
+[Software Demo Video](https://youtu.be/D_ZBQkZ--fI)
 
 # Web Pages
 
